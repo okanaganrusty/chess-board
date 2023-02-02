@@ -77,11 +77,15 @@ function App() {
           gridTemplateRows: "repeat(8, 1fr)",
         }}
       >
-        {[...Array(64)].map((e, i) => (
-          <div key={i} className="game-cell">
-            {chessPieces[i]}
-          </div>
-        ))}
+        {[...Array(8)].map((e, row) =>
+          [...Array(8)].map((f, column) => (
+            <div key={(row * 8) + column} className="game-cell" style={{
+              backgroundColor: (row * 8 + column) % 2 === (row % 2) ? "#d0d0d0" : ""
+            }}>
+              {chessPieces[row * 8 + column]}
+            </div>  
+          ))
+        )}
       </div>
     </div>
   );
