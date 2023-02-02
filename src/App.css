@@ -38,8 +38,6 @@
 }
 
 .game-cell {
-  width: 30px;
-  height: 30px;
   border: 1px solid ;
   box-sizing: border-box;
 }
