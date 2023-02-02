@@ -40,5 +40,6 @@
 .game-cell {
   border: 1px solid ;
   box-sizing: border-box;
-  min-height: 64px;
+  min-height: 75px;
+  min-width: 75px;
 }
