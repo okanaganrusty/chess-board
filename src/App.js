@@ -1,23 +1,35 @@
 import logo from './logo.svg';
 import './App.css';
 
+import King from './King';
+import Queen from './Queen';
+import Bishop from './Bishop';
+import Knight from './Knight';
+import Rook from './Rook';
+import Pawn from './Pawn';
+
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+
+      <Pawn isBlackPiece={true} />      
+      <Pawn isBlackPiece={false} />      
+
+      <Knight isBlackPiece={true} />      
+      <Knight isBlackPiece={false} />      
+
+      <Rook isBlackPiece={true} />      
+      <Rook isBlackPiece={false} />      
+
+      <Bishop isBlackPiece={true} />      
+      <Bishop isBlackPiece={false} />      
+
+      <Queen isBlackPiece={true} />      
+      <Queen isBlackPiece={false} />      
+
+      <King isBlackPiece={true} />      
+      <King isBlackPiece={false} />      
+
     </div>
   );
 }
