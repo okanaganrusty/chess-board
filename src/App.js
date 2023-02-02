@@ -12,24 +12,90 @@ function App() {
   return (
     <div className="App">
 
-      <Pawn isBlackPiece={true} />      
-      <Pawn isBlackPiece={false} />      
+      <div style={{
+        display: "grid",
+        width: "50vw",
+        height: "50vh",
+        width: "120px",
+        height: "120px",
+        gridGap: "2px",
+        border: "1px solid black",
+        gridTemplateColumns: "repeat(8, 1fr)",
+        gridTemplateRows: "repeat(8, 1fr)",
+       }}>        
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>        
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>        
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
 
-      <Knight isBlackPiece={true} />      
-      <Knight isBlackPiece={false} />      
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>        
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>        
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
 
-      <Rook isBlackPiece={true} />      
-      <Rook isBlackPiece={false} />      
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>        
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>        
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
 
-      <Bishop isBlackPiece={true} />      
-      <Bishop isBlackPiece={false} />      
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>        
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>        
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
 
-      <Queen isBlackPiece={true} />      
-      <Queen isBlackPiece={false} />      
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>        
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>        
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
 
-      <King isBlackPiece={true} />      
-      <King isBlackPiece={false} />      
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>        
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>        
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
 
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>        
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>        
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
+
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>        
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>        
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
+        <div className="game-cell"></div>
+
+       </div>
     </div>
   );
 }
